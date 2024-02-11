@@ -22,3 +22,21 @@ Install dependencies
 ```bash
   composer install
 ```
+
+## Add CSV files
+
+Load files to the following respective folders
+Tickets
+```bash
+  ./storage/app/SFTP/Tickets/
+```
+Winnings
+```bash
+  ./storage/app/SFTP/Tickets/
+```
+
+Run command to compare winnings
+
+```bash
+  php artisan app:lotto-draw
+```

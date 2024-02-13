@@ -25,6 +25,11 @@ Install dependencies
 
 ## Add CSV files
 
+To automatically create the folders run the following command
+```bash
+  php artisan app:lotto-draw
+```
+
 Load files to the following respective folders
 Tickets
 ```bash
